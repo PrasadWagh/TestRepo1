@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { T1ComponentComponent } from './t1-component/t1-component.component';
 import { T2ComponentComponent } from './t2-component/t2-component.component';
+import { T3ComponentComponent } from './t3-component/t3-component.component';
+import { T4ComponentComponent } from './t4-component/t4-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     T1ComponentComponent,
-    T2ComponentComponent
+    T2ComponentComponent,
+    T3ComponentComponent,
+    T4ComponentComponent
   ],
   imports: [
     BrowserModule
